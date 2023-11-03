@@ -9,15 +9,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringFhirIngestionApplication {
 
-	@RequestMapping("/")
-    public String home() {
-        return "Hello World";
-    }
+	// @RequestMapping("/")
+  //   public String home() {
+  //       return "Entry point for Springboot Fhir Ingestion";
+  //   }
+
+	public static void main(String[] args) {
+		System.out.print("Hello, Maud");
+	}
 
 	// @RequestMapping("/get-field")
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringFhirIngestionApplication.class, args);
-	}
+	// public static void main(String[] args) {
+	// 	SpringApplication.run(SpringFhirIngestionApplication.class, args);
+	// }
 
 }
