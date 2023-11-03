@@ -14,6 +14,8 @@ public class SpringFhirIngestionApplication {
         return "Hello World";
     }
 
+	// @RequestMapping("/get-field")
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringFhirIngestionApplication.class, args);
 	}
